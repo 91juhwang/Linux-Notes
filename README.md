@@ -144,3 +144,17 @@ To log the information, we typically do below command to separate the stdinput a
 * `ls file*` - will return anything that starts with file. file1, file2, file3 blahblah
 * `grep [ser] ./hostnames` - grep files that contains any of the `[ser]`. Will return files with only `er` or `r`.
 * `grep [^ser] ./hostnames` - grep files that DOES NOT CONTAIN `[ser]`. Different from outside of bracket `^`
+
+## Scripting
+
+* `if/else` configs
+![alt text](https://drive.google.com/uc?id=0Byxeja4jYwq4VWl2YmViS0VfbFE)
+
+* Loops
+```shell
+for i in `seq15`
+  do
+    echo "The current number is $i"
+  done
+exit 0
+```
